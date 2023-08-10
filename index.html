@@ -46,49 +46,42 @@
 	  "sameAs": [
 		"https://www.instagram.com/ninacarducci.photo/"
 	  ],
-	  "service": [
-		{
-		  "@type": "Service",
-		  "serviceType": "Photography Services",
-		  "name": "Shooting photo",
-		  "description": "Pour capturer vos moments les plus précieux...",
-		  "offers": {
+	  "hasOfferCatalog": {
+		"@type": "OfferCatalog",
+		"name": "Photography Services",
+		"itemListElement": [
+		  {
 			"@type": "Offer",
-			"price": "350",
-			"priceCurrency": "EUR",
-			"availability": "https://schema.org/InStock",
-			"url": "https://ninacarducci.github.io/#services"
-		  }
-		},
-		{
-		  "@type": "Service",
-		  "serviceType": "Photography Services",
-		  "name": "Retouches",
-		  "description": "Vous souhaitez retoucher vos photos pour un résultat professionnel...",
-		  "offers": {
+			"itemOffered": {
+			  "@type": "Service",
+			  "name": "Shooting photo",
+			  "description": "Pour capturer vos moments les plus précieux...",
+			  "url": "https://ninacarducci.github.io/#services"
+			}
+		  },
+		  {
 			"@type": "Offer",
-			"price": "50",
-			"priceCurrency": "EUR",
-			"availability": "https://schema.org/InStock",
-			"url": "https://ninacarducci.github.io/#services"
-		  }
-		},
-		{
-		  "@type": "Service",
-		  "serviceType": "Photography Services",
-		  "name": "Album photos",
-		  "description": "Partagez avec vos proches et vos clients les photos des moments partagés ensemble...",
-		  "offers": {
+			"itemOffered": {
+			  "@type": "Service",
+			  "name": "Retouches",
+			  "description": "Vous souhaitez retoucher vos photos pour un résultat professionnel...",
+			  "url": "https://ninacarducci.github.io/#services"
+			}
+		  },
+		  {
 			"@type": "Offer",
-			"price": "400",
-			"priceCurrency": "EUR",
-			"availability": "https://schema.org/InStock",
-			"url": "https://ninacarducci.github.io/#services"
+			"itemOffered": {
+			  "@type": "Service",
+			  "name": "Album photos",
+			  "description": "Partagez avec vos proches et vos clients les photos des moments partagés ensemble...",
+			  "url": "https://ninacarducci.github.io/#services"
+			}
 		  }
-		}
-	  ]
+		]
+	  }
 	}
 	</script>
+
 
 
 	<!-- Open Graph data -->
