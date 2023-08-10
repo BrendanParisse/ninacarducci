@@ -24,75 +24,74 @@
 
 	<!-- Schema.org -->
 	<script type="application/ld+json">
+	{
+	  "@context": "http://schema.org",
+	  "@type": "Organization",
+	  "name": "Nina Carducci - Photographe",
+	  "url": "https://ninacarducci.github.io/",
+	  "logo": "https://ninacarducci.github.io/assets/images/nina.png",
+	  "description": "Découvrez l'univers photographique de Nina Carducci...",
+	  "address": {
+		"@type": "PostalAddress",
+		"streetAddress": "95 Rue de Paris",
+		"addressLocality": "Paris",
+		"postalCode": "75000",
+		"addressCountry": "France"
+	  },
+	  "contactPoint": {
+		"@type": "ContactPoint",
+		"telephone": "06.28.80.22.14",
+		"email": "ninacarducci@gmail.com"
+	  },
+	  "sameAs": [
+		"https://www.instagram.com/ninacarducci.photo/"
+	  ],
+	  "service": [
 		{
-		  "@context": "http://schema.org",
-		  "@type": "Organization",
-		  "name": "Nina Carducci - Photographe",
-		  "url": "https://ninacarducci.github.io/",
-		  "logo": "https://ninacarducci.github.io/assets/images/nina.png",
-		  "description": "Découvrez l'univers photographique de Nina Carducci...",
-		  "address": {
-			"@type": "PostalAddress",
-			"streetAddress": "95 Rue de Paris",
-			"addressLocality": "Paris",
-			"postalCode": "75000",
-			"addressCountry": "France"
-		  },
-		  "contactPoint": {
-			"@type": "ContactPoint",
-			"telephone": "06.28.80.22.14",
-			"email": "ninacarducci@gmail.com"
-		  },
-		  "sameAs": [
-			"https://www.instagram.com/ninacarducci.photo/"
-		  ],
-		  "service": [
-    {
-      "@type": "Service",
-      "serviceType": "Photography Services",
-      "name": "Shooting photo",
-      "description": "Pour capturer vos moments les plus précieux...",
-      "offers": {
-        "@type": "Offer",
-        "price": "350",
-        "priceCurrency": "EUR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://ninacarducci.github.io/services/shooting-photo"
-      }
-    },
-    {
-      "@type": "Service",
-      "serviceType": "Photography Services",
-      "name": "Retouches",
-      "description": "Vous souhaitez retoucher vos photos pour un résultat professionnel...",
-      "offers": {
-        "@type": "Offer",
-        "price": "50",
-        "priceCurrency": "EUR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://ninacarducci.github.io/services/retouches"
-      }
-    },
-    {
-      "@type": "Service",
-      "serviceType": "Photography Services",
-      "name": "Album photos",
-      "description": "Partagez avec vos proches et vos clients les photos des moments partagés ensemble...",
-      "offers": {
-        "@type": "Offer",
-        "price": "400",
-        "priceCurrency": "EUR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://ninacarducci.github.io/services/album-photos"
-      }
-    }
+		  "@type": "Service",
+		  "serviceType": "Photography Services",
+		  "name": "Shooting photo",
+		  "description": "Pour capturer vos moments les plus précieux...",
+		  "offers": {
+			"@type": "Offer",
+			"price": "350",
+			"priceCurrency": "EUR",
+			"availability": "https://schema.org/InStock",
+			"url": "https://ninacarducci.github.io/#services"
+		  }
+		},
+		{
+		  "@type": "Service",
+		  "serviceType": "Photography Services",
+		  "name": "Retouches",
+		  "description": "Vous souhaitez retoucher vos photos pour un résultat professionnel...",
+		  "offers": {
+			"@type": "Offer",
+			"price": "50",
+			"priceCurrency": "EUR",
+			"availability": "https://schema.org/InStock",
+			"url": "https://ninacarducci.github.io/#services"
+		  }
+		},
+		{
+		  "@type": "Service",
+		  "serviceType": "Photography Services",
+		  "name": "Album photos",
+		  "description": "Partagez avec vos proches et vos clients les photos des moments partagés ensemble...",
+		  "offers": {
+			"@type": "Offer",
+			"price": "400",
+			"priceCurrency": "EUR",
+			"availability": "https://schema.org/InStock",
+			"url": "https://ninacarducci.github.io/#services"
+		  }
 		}
-		</script>
-
+	  ]
+	}
+	</script>
 
 
 	<!-- Open Graph data -->
-
 	<meta property="og:title" content="Portfolio - Nina Carducci" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://ninacarducci.github.io/" />
@@ -109,8 +108,6 @@
 	<meta name="twitter:creator" content="@Nina Carducci">
 	<!-- Twitter Summary card images must be at least 200x200px -->
 	<meta name="twitter:image" content="https://ninacarducci.github.io/assets/images/nina.png">
-
-
 </head>
 
 <body>
@@ -127,8 +124,6 @@
 			</ul>
 		</nav>
 	</header>
-
-
 	<main>
 		<section id="header">
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -166,9 +161,6 @@
 				</button>
 			</div>
 		</section>
-
-
-
 		<section id="about">
 			<figure class="picture left">
 				<img src="./assets/images/nina.avif" alt="PhotoMoi">
@@ -190,9 +182,6 @@
 					tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 			</article>
 		</section>
-
-
-
 		<section id="gallery">
 			<h2 class="title">Portfolio</h2>
 			<div class="container py-3">
@@ -239,8 +228,6 @@
 				</figure>
 			</div>
 		</section>
-
-
 		<section id="services">
 			<h2 class="title">Mes services</h2>
 			<div class="container">
@@ -282,8 +269,6 @@
 				</article>
 			</div>
 		</section>
-
-
 		<aside class="quote">
 			<figure>
 				<blockquote>
@@ -294,9 +279,6 @@
 			</figure>
 		</aside>
 	</main>
-
-
-
 	<footer id="contact">
 		<div class="container">
 			<div class="form-container">
