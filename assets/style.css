@@ -71,7 +71,7 @@ body {
 
 .picture img {
     width: 100%;
-    height: 82%;
+    height: 100%;
 }
 
 #about-me {
@@ -88,10 +88,11 @@ body {
     font-family: 'Spectral';
     font-weight: 800;
     font-style: italic;
-    width: 60%
+    width: 60%;
+    font-size: 1rem;
 }
 
-#about-me p {
+.about-me__paragraphe {
     width: 80%;
     font-size: 14px
 }
@@ -158,7 +159,9 @@ body {
 .quote__text {
     font-family: Spectral;
     font-style: italic;
-    font-weight: 300
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 1.2;
 }
 
 .quote__author {
